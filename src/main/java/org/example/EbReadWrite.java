@@ -17,6 +17,8 @@ public class EbReadWrite {
                 bw.write(inputLine);
             }
         } catch (Exception e) {
+            System.out.println("Fejl i URL");
+        }
     }
 }
 }
